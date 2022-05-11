@@ -14,6 +14,11 @@ Compile by typing: make
 Run the example with:  
   ./master < examples/chevalier
 
-There is a short description of MOLOG in this [paper](http://www.alliot.fr/papers/fgcs92.pdf)
+The example is known as *The King's Wise Men Hat Puzzle*. It is a classical induction puzzle and is described in a wikipedia page
+[here](https://en.wikipedia.org/wiki/Induction_puzzles#The_King's_Wise_Men_Hat_Puzzle). 
+
+There is a short description of MOLOG in this [paper](http://www.alliot.fr/papers/fgcs92.pdf), presented at the last Fifth Generation Computer System Conference in 1992 (FGCS'92).
+There is also a wikipedia page for MOLOG, but in french. The detailed coding of the wise men hat puzzle is described
+[inside](https://fr.wikipedia.org/wiki/MOLOG).
 For more information you can read my [PhD](http://www.alliot.fr/papers/thesejma.pdf), but it is in french...
 
