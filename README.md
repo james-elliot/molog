@@ -5,7 +5,7 @@ Unfortunately, the second AI winter of the 90s killed almost all research on the
 
 MOLOG was written in ADA, with a part in C for the implementation of parallelism. Let's remind the reader that in 1992 ADA parallelism was not properly implemented by the ALSYS compiler on Sun/Unix machines (it was only working properly with DEC-ADA under DEC/VMS). So I had to develop my own set of routines for non blocking communications and parallelism (it was called PARADISE).
 
-At the occasion of the thirtieth anniversary of MOLOG, I decided to dig out the old code. The ADA part compiled and worked almost on the spot, the C implementation of communication and parallelism was a mess. The perfect solution would be to rewrite this part using MPI/ADA bindings, but this kind of beast seems hard to find, and it is extremely dubious that I will ever work again on this code.
+At the occasion of the fiftieth anniversary of PROLOG (and the thirtieth of MOLOG), I decided to dig out the old code. The ADA part compiled and worked almost on the spot, the C implementation of communication and parallelism was a mess. The perfect solution would be to rewrite this part using MPI/ADA bindings, but this kind of beast seems hard to find, and it is extremely dubious that I will ever work again on this code.
 
 So I publish this version, which is full ADA, but doesn't implement parallelism. It's a kind of tribute to all people who ever worked on these subjects, and whose work has slowly sunk into oblivion. 
 
